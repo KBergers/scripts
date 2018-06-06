@@ -31,7 +31,7 @@ if __name__ == "__main__":
 			print(new_dirc + " already exists!")
 		else:
 			shutil.copyfile(copy_dirc, new_dirc)
-			print("Plan " + plan + " gekopiëerd naar " new_dirc)
+			print("Plan " + plan + " gekopiëerd naar " + dirc + folder)
 			
 		"""
 		#hernoemen plan naar "_" op opkuis-folder 
